@@ -35,10 +35,7 @@ keys = ['SIMPLE',
  'INSTRUME',
  'COMMENT']
 
-#Digo que ikidirectorios tengo que analizar
-# basedir = '/home/abuccino/disquito/HKa/fede/basedatos'
 basedir = input(f"Input files directory: ")
-# tabledir = '/home/abuccino/disquito/HKa/fede'
 tabledir = input(f"Inpute table directory: ")
 
 basedates = os.listdir(basedir)
